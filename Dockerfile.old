@@ -1,6 +1,6 @@
-FROM node:23-bookworm
+FROM node:18-bullseye as builder
 
-WORKDIR /www/app
+WORKDIR /var/www/
 
 COPY package*.json ./
 

@@ -2,7 +2,7 @@
 set -e
 
 echo ">>> Starting app in $NODE_ENV"
-
+echo ">>> This is an AltSchool lecture session"
 echo "Running DB Migration!𝌏 ..."
 npm run migration:run
 echo "Database Migration Successful ✅!"
@@ -10,6 +10,9 @@ echo "Database Migration Successful ✅!"
 echo "Running seeders...⛓⚙️"
 #npm run db:seed
 echo "Database Seeders ✅"
+
+npm install
+
 
 npm uninstall bcrypt
 
